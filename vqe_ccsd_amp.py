@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 18 14:08:47 2019
-
-@author: hasee
-"""
 
 import os
 
