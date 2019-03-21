@@ -84,9 +84,7 @@ initial_energy = energy_objective(initial_amplitudes)
 
 
 opt_result = minimize(energy_objective, initial_amplitudes,
-                      method='BFGS', options={'disp': True
-        , 'maxiter': 1
-                                              })
+                      method='BFGS', options={'disp': True})
 
 opt_energy, opt_amplitudes = opt_result.fun, opt_result.x
 
